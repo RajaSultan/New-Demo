@@ -75,18 +75,18 @@ html {
   scroll-snap-type: y mandatory !important;
 }
 
-
 *,
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  scroll-snap-type: y mandatory !important;
 
 }
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
-    scroll-behavior: false;
+    scroll-behavior: smooth;
   }
 }
 
@@ -15314,15 +15314,31 @@ header {
     margin-top: 60px;
   }
 
+  .video-div {
+    height: 70vh !important;
+
+  }
+
+  .fullscreen-video {
+    margin-top: 30px !important;
+  }
+
+  .video-div {
+    height: 60vh !important;
+
+  }
+
+  .fullscreen-video {
+    margin-top: 30px !important;
+  }
 
   .video-player {
     position: absolute;
     right: 0;
     bottom: 0;
-
     min-width: 100%;
     min-height: 100%;
-    scroll-snap-align: start !important;
+
   }
 
   .container,

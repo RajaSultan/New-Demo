@@ -93,8 +93,6 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.main-container {}
-
 
 hr {
   margin: 1rem 0;
@@ -15312,7 +15310,14 @@ header {
     margin-top: 60px;
   }
 
+  .video-div {
+    height: 70vh !important;
 
+  }
+
+  .fullscreen-video {
+    margin-top: 30px !important;
+  }
 
   .video-player {
     position: absolute;
@@ -15320,7 +15325,7 @@ header {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    scroll-snap-align: start !important;
+
   }
 
   .container,
@@ -18084,7 +18089,6 @@ html[data-theme=dark] .light-mode-item {
   min-width: none;
   max-width: 320px;
   border-radius: .5rem;
-
 }
 
 .video-div {
@@ -18099,7 +18103,7 @@ html[data-theme=dark] .light-mode-item {
 
 .video-player {
   max-width: 320px;
-  height: 100%;
+  /* height: 100%; */
   background-color: #000;
 }
 
