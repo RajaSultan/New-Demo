@@ -7,7 +7,7 @@ video.forEach((video) => {
       let observer = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
-            video.muted = false;
+            video.muted = true;
             if (entry.intersectionRatio !== 1 && !video.paused) {
               video.pause();
             } else if (entry.intersectionRatio > 0.5 && video.paused) {

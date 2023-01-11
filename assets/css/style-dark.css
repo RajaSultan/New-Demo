@@ -93,6 +93,9 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.main-container {}
+
+
 hr {
   margin: 1rem 0;
   color: #30343c;
@@ -15308,6 +15311,8 @@ header {
     display: none;
     margin-top: 60px;
   }
+
+
 
   .video-player {
     position: absolute;

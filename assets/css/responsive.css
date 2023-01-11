@@ -19,7 +19,6 @@
   /* CSS */
 
 
-
 }
 
 
@@ -299,6 +298,7 @@
   .overlap {
     right: 14%;
   }
+
 }
 
 @media (min-width: 400px) and (max-width: 440px) {
